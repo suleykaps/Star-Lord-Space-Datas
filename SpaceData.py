@@ -31,6 +31,7 @@ st.markdown("**Linkedin**  >   https://www.linkedin.com/in/süleyman-kaplan/ \n"
 st.markdown("**GitHub**    >   https://github.com/suleykaps")
 
 # fonksiyonlar
+"""
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -38,13 +39,13 @@ def load_lottieurl(url):
     return r.json()
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ZQhQzO.json")
+#lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ZQhQzO.json")
 
 #page settings
-streamlit_lottie.st_lottie(lottie_coding, height=300, key="coding")
+#streamlit_lottie.st_lottie(lottie_coding, height=300, key="coding")
 
 
-
+"""
 
 
 
