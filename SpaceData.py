@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-import streamlit_lottie
+#import streamlit_lottie
 from sklearn import datasets
 from streamlit_image_comparison import image_comparison
 import cv2
