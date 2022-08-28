@@ -3,10 +3,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-#import streamlit_lottie
+import streamlit_lottie
 from sklearn import datasets
-#from streamlit_image_comparison import image_comparison
-#import cv2
+from streamlit_image_comparison import image_comparison
+import cv2
 
 st.set_page_config(
     page_title="Anasayfa",
@@ -31,7 +31,6 @@ st.markdown("**Linkedin**  >   https://www.linkedin.com/in/süleyman-kaplan/ \n"
 st.markdown("**GitHub**    >   https://github.com/suleykaps")
 
 # fonksiyonlar
-"""
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -39,13 +38,13 @@ def load_lottieurl(url):
     return r.json()
 
 # ---- LOAD ASSETS ----
-#lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ZQhQzO.json")
+lottie_coding = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ZQhQzO.json")
 
 #page settings
-#streamlit_lottie.st_lottie(lottie_coding, height=300, key="coding")
+streamlit_lottie.st_lottie(lottie_coding, height=300, key="coding")
 
 
-"""
+
 
 
 
