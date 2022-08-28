@@ -5,7 +5,7 @@ import numpy as np
 import requests
 #import streamlit_lottie
 from sklearn import datasets
-from streamlit_image_comparison import image_comparison
+#from streamlit_image_comparison import image_comparison
 import cv2
 
 st.set_page_config(
