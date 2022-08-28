@@ -6,7 +6,7 @@ import requests
 #import streamlit_lottie
 from sklearn import datasets
 #from streamlit_image_comparison import image_comparison
-import cv2
+#import cv2
 
 st.set_page_config(
     page_title="Anasayfa",
